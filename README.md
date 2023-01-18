@@ -56,3 +56,6 @@ en table dans notre base de données.
 
 ## Étape 20
 Après avoir relancé l'application avec *data.sql* de rajouter, on peut voir les informations saisies dans la table.
+
+## Étape 22
+*@Autowired* permet d'activer l'injection automatique de dépendances. 
