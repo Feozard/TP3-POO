@@ -59,3 +59,9 @@ Après avoir relancé l'application avec *data.sql* de rajouter, on peut voir le
 
 ## Étape 22
 *@Autowired* permet d'activer l'injection automatique de dépendances. 
+
+## Étape 30
+Pour ajouter Bootstrap, je me suis servis de [ce tutoriel](https://getbootstrap.com/docs/4.3/getting-started/introduction/).
+Il faut en premier lieu ajouter le lien vers la feuille de style de Bootstrap dans le *<head>* du fichier HTML.
+Ensuite, on rajoute les scripts JavaScript de Bootstrap.
+Enfin, il faut vérifier que la structure de notre document correspond aux attentes (dernière version d'HTML, etc)
