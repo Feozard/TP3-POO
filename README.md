@@ -53,3 +53,6 @@ avec ces attributs comme éléments de la table.
 Hibernate est un framework qui permet de transformer des classes Java en des tables de bases de données. 
 La dépendance Hibernate de Spring de notre projet a donc permis la transformation de la classe *Address*
 en table dans notre base de données.
+
+## Étape 20
+Après avoir relancé l'application avec *data.sql* de rajouter, on peut voir les informations saisies dans la table.
