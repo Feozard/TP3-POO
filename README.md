@@ -32,10 +32,10 @@ Thymeleaf permet de générer de l'HTML avec un projet Java.
 ```Java
 @Controller
 public class HelloWorldController {
-    @GetMapping("/greeting") // Paramétrage de l'url d'appel
+    @GetMapping("/greeting") // Paramétrage de l'url d'appel (Q1)
     public String greeting(@RequestParam(name="name", required=false, defaultValue="World") String 
-                                   name, Model model) {  // On utilise @RequestParam pour envoyer le nom
-        model.addAttribute("nomTemplate", name); // Sélection du fichier HTML à afficher
+                                   name, Model model) {  // On utilise @RequestParam pour envoyer le nom (Q3)
+        model.addAttribute("nomTemplate", name); // Sélection du fichier HTML à afficher (Q2)
         return "greeting";
     }
 }
