@@ -45,6 +45,11 @@ public class HelloWorldController {
 
 ## Étape 17
 
-Après avoir rajouter la classe *address*, on la voit apparaitre en tant que table dans notre base de données  
+Après avoir rajouter la classe *Address*, on la voit apparaitre en tant que table dans notre base de données  
 avec ces attributs comme éléments de la table.
 
+## Étape 18
+
+Hibernate est un framework qui permet de transformer des classes Java en des tables de bases de données. 
+La dépendance Hibernate de Spring de notre projet a donc permis la transformation de la classe *Address*
+en table dans notre base de données.
