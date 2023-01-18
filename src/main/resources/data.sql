@@ -1,0 +1,2 @@
+INSERT INTO address (id, creation, content, auteur) VALUES (1, CURRENT_TIMESTAMP(), '57 Boulevard Memorieux', 'Michel');
+INSERT INTO address (id, creation, content, auteur) VALUES (2, CURRENT_TIMESTAMP(), '51 Allee du Gamay, 34080 Montpellier', 'Michelle');
