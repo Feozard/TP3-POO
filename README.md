@@ -45,7 +45,7 @@ public class HelloWorldController {
 
 ## Étape 17
 
-Après avoir rajouter la classe *Address*, on la voit apparaitre en tant que table dans notre base de données  
+Après avoir rajouté la classe *Address*, on la voit apparaitre en tant que table dans notre base de données  
 avec ces attributs comme éléments de la table.
 
 ## Étape 18
