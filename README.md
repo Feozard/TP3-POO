@@ -23,7 +23,7 @@ Spring Boot DevTools est là pour faciliter le processus de programmation.
 ### Thymeleaf  
 Thymeleaf permet de générer de l'HTML avec un projet Java.
 
-## Questions
+## Étape 13 - Questions
 
 1. Avec quelle partie du code avons-nous paramétré l'url d'appel /greeting ?
 2. Avec quelle partie du code avons-nous choisi le fichier HTML à afficher ?
@@ -40,4 +40,9 @@ public class HelloWorldController {
     }
 }
 ```
+
+## Étape 17
+
+Après avoir rajouter la classe *address*, on la voit apparaitre en tant que table dans notre base de données  
+avec ces attributs comme éléments de la table.
 
