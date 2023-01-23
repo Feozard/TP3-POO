@@ -1,4 +1,7 @@
-# TP3-POO  
+[Lien vers le projet GitHub](https://github.com/Feozard/TP3-POO )
+# POO : API & Outils 
+
+# TP3
 
 ## Étape 5
 
@@ -62,3 +65,21 @@ Pour ajouter Bootstrap, je me suis servis de [ce tutoriel](https://getbootstrap.
 Il faut en premier lieu ajouter le lien vers la feuille de style de Bootstrap dans le *<head>* du fichier HTML.
 Ensuite, on rajoute les scripts JavaScript de Bootstrap.
 Enfin, il faut vérifier que la structure de notre document correspond aux attentes (dernière version d'HTML, etc)
+
+
+# TP4
+
+## Étape 6
+* Faut-il une clé API pour appeler MeteoConcept ?
+  * Oui, il faut une clé API.
+* Quelle URL appeler ?
+  * Pour obtenir la météo d'un seul jour, on utilise l'adresse : *https://api.meteo-concept.com/api/forecast/daily/0?token=MON_TOKEN&latlng=* et compléter avec nos informations
+* Quelle méthode HTTP utiliser ?
+  * On utilise la méthode GET.
+* Comment passer les paramètres d'appels ?
+  * Pour passer des paramètres, on les mets à la suite de leur nom dans l'url
+* Où est l'information dont j'ai besoin dans la réponse :
+  * Pour afficher la température du lieu visé par les coordonnées GPS ?  
+  Les températures minimum et maximum *tmin* et *tmax* sont présentes dans l'objet *forecast*.
+  * Pour afficher la prévision de météo du lieu visé par les coordonnées GPS ?  
+  Si on veut les prévisions météo, on va utiliser l'url *https://api.meteo-concept.com/api/forecast/daily?token=MON_TOKEN&latlng=* et naviguer dans les différents index de *forecast* pour trouver les températures min et max des jours suivants.
