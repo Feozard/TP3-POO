@@ -19,7 +19,7 @@ public class MeteoController {
         RestTemplate restTemplate = new RestTemplate();
         APIAnswer answer = restTemplate.getForObject(uri, APIAnswer.class);
 
-        uri = new URI("https://api.meteo-concept.com/api/forecast/daily/0?token=db9abfc1b9e81116c7b48e84ec4835e838652953ac33eb1f5cb632e555485ee5&latlng=" +
+        uri = new URI("https://api.meteo-concept.com/api/forecast/daily/0?token=MONTOKEN&latlng=" +
                 answer.features().get(0).geometry().coordinates().get(1) + "," + answer.features().get(0).geometry().coordinates().get(0));
         RestTemplate restTemplate1 = new RestTemplate();
         APIMeteo meteo = restTemplate1.getForObject(uri, APIMeteo.class);
